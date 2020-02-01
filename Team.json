@@ -1,0 +1,151 @@
+team = [{
+
+
+       "firstName": "Michi",
+
+       "lastName": "Haks",
+
+       "emailAddress": "michihaks@gmail.com",
+
+       "jobTitleName": "Program Directory",
+
+       "salary": "2000",
+
+       "photo": "<img width=100% height=150px src=img/a.jpg>"
+
+},
+{
+
+       "firstName": "Ralf",
+
+       "lastName": "Hax",
+
+       "emailAddress": "ralfhax@gmail.com",
+
+       "jobTitleName": "Police Officer",
+
+       "salary": "1900",
+
+       "photo": "<img width=100% height=150px src=img/b.jpg>"
+
+},
+{
+
+       "firstName": "Mario",
+
+       "lastName": "Holi",
+
+       "emailAddress": "marioholi@gmail.com",
+
+       "jobTitleName": "Job Hunter",
+
+       "salary": "2455",
+
+       "photo": "<img width=100% height=150px src=img/c.jpg>"
+
+},
+{
+
+       "firstName": "Olaf",
+
+       "lastName": "Willi",
+
+       "emailAddress": "olafwilli@gmail.com",
+
+       "jobTitleName": "Director",
+
+       "salary": "2100",
+
+       "photo": "<img width=100% height=150px src=img/d.jpg>"
+
+},
+{
+
+       "firstName": "Susanne",
+
+       "lastName": "Mayer",
+
+       "emailAddress": "susannemayer@gmail.com",
+
+       "jobTitleName": "Doctor",
+
+       "salary": "4000",
+
+       "photo": "<img width=100% height=150px src=img/e.jpg>"
+
+},
+{
+
+       "firstName": "Manuel",
+
+       "lastName": "Huber",
+
+       "emailAddress": "manuelhuber@gmail.com",
+
+       "jobTitleName": "Program Directory",
+
+       "salary": "7000",
+
+       "photo": "<img width=100% height=150px src=img/f.jpg>"
+
+},
+{
+
+       "firstName": "Martina",
+
+       "lastName": "Wolf",
+
+       "emailAddress": "martinawolf@gmail.com",
+
+       "jobTitleName": "Offic Developer",
+
+       "salary": "1322",
+
+       "photo": "<img width=100% height=150px src=img/g.jpg>"
+
+},
+{
+
+       "firstName": "Tom",
+
+       "lastName": "Halla",
+
+       "emailAddress": "tomhalla@gmail.com",
+
+       "jobTitleName": "Program Directory for MSN",
+
+       "salary": "2598",
+
+       "photo": "<img width=100% height=150px src=img/h.jpg>"
+
+},
+{
+
+       "firstName": "Lukas",
+
+       "lastName": "Solla",
+
+       "emailAddress": "Lukassolla@gmail.com",
+
+       "jobTitleName": "Bus driver",
+
+       "salary": "999",
+
+       "photo": "<img width=100% height=150px src=img/i.jpg>"
+
+},
+{
+
+       "firstName": "Maria",
+
+       "lastName": "Sak",
+
+       "emailAddress": "mariasak@gmail.com",
+
+       "jobTitleName": "Nurse",
+
+       "salary": "2500",
+
+       "photo": "<img width=100% height=150px src=img/j.jpg>"
+
+}]

@@ -1,0 +1,301 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*-------------------------------------------header starts here------------------------------ .*/
+a {
+  text-decoration: none;
+  color: white;
+  }
+
+header {
+  background-color: #FFF3F3;
+  margin: 0 auto;
+  }
+
+nav {
+  background-color: #8E1616;
+  text-align: left; 
+  }
+
+  nav li a {
+    text-decoration: none;
+  }
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  display: inline-block;
+  display: flex;
+  line-height: 3em; 
+  margin-bottom: 0%
+  }
+
+li {
+  padding: 0 5px;
+  color: white;
+  font-size: 160%;
+  }
+/* the area above contains all about the styling of the navigation bar*/
+
+.TLogo {
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 25px;
+  }
+
+.InsuranceP {
+  padding-top: 1%; 
+  }
+
+.banner-2 {
+  padding-top: 12px;
+  }
+/* above we have the position of the banner and the logo*/
+
+/*-------------------------------------------header ends here------------------------------ .*/
+
+/*-------------------------------------------Mainbodypart starts here------------------------------ .*/ 
+#carcoverage{
+  width: 100%;
+  padding-top: 0;
+  background-color: #CECECE; 
+  }
+
+#light{
+  width: 100%;
+  margin:  0 auto;
+  height: auto;
+  z-index: 2;
+  }
+
+#traffic{
+ background-color: #CECECE;
+  }
+
+#toprow{
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+#blockgreytext{
+  text-align: center;
+  margin-top: 0;
+  padding-top: 1.4%;
+  margin-bottom: 5%;
+  padding-bottom: 1.4%;
+  font-family: Palatino, serif;
+  font-size: 120%;
+  background-color: #CECECE; 
+  }
+
+.ctraffic{
+  position: relative;
+  }
+
+.traffichide{
+  position: absolute;
+  bottom: 87%;
+  left: 4.5%;
+  color: white;
+  font-size: 150%;
+  }
+
+#cartext{
+  position: relative;
+  }
+
+.blockgrey{
+  height: 89%;
+  width: 75%;
+  background-color: #CECECE;
+  position: absolute;
+  right: 10%;
+  top:  13%;
+  left: 10%;
+  border: 1px solid darkgray;
+  opacity: .8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.CR01 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 150%;
+}
+
+.contentrow0{
+  margin-top: 5%; 
+  display: flex;
+  justify-content: center;
+  }
+
+.contentrow1{
+  margin-top: 5%; 
+  display: flex;
+  justify-content: center;
+  }
+
+.contentrow2{
+  margin-top: 5%; 
+  display: flex;
+  justify-content: center;
+  }
+
+.contentrow3{
+  margin-top: 5%; 
+  display: flex;
+  justify-content: center;
+  margin
+  }
+
+.CR23 {
+  display: flex;
+  justify-content: space-around; 
+  font-size: 150%;
+}
+
+.contentbox{
+  text-align: center;
+  font-size: 150%;
+  }
+
+.Headlinebox {
+  font-size: 350%;
+  }
+
+.Headline2 {
+  font-size: 200%;
+  }
+
+#footer {
+  background-color: black;
+  width: 100%;
+  margin-top: 5%;
+  }
+
+.name {
+  text-align: center;
+  margin-bottom: 0px;
+  color: white;
+  }
+
+#toprow{
+  font-size: 26px;
+  }
+
+.logo5 {
+  margin-right: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: right; 
+  }
+
+.Boxarea {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  font-family: arial;
+  color: gray;
+  }
+
+button {
+  font-size: 100%;
+}
+
+/*-------------------------------------------Mainbodypart ends here------------------------------ .*/ 
+
+/*-------------------------------------------footer starts here------------------------------ .*/
+
+#footer {
+  background-color: black;
+  width: 100%;
+  margin-top: 5%; 
+  }
+
+.name {
+  text-align: center;
+  margin-bottom: 0px;
+  color: white;
+  }
+
+
+
+.logo5 {
+  margin-right: 1%;
+  padding-bottom: 1%;
+  text-align: right;
+  }
+
+.nav2 {
+  background-color: black;
+  text-align: left; 
+  }
+/*.......................................................two boxex end here----------------*/
+
+/*-------------------------------------------two Boxes starts here------------------------------ .*/
+.Boxarea {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  font-family: arial;
+  color: gray;
+  }
+/*This area defines the whole space for the two boxes */
+
+.Boxes {
+  width: 27%;
+  border: 2px solid lightgrey;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 3%;
+  box-shadow: 1px 1px 1px #ccc, -1px 1px 1px #ccc;
+  border-top: 3px solid #171717
+  }
+/*Here we define the border of the boxes as well as the final position  */
+
+p{
+margin-bottom: 0;
+margin-top: 1%;
+font-size: 115%;
+}
+
+
+.H3 {
+  font-size: 170%;
+  color: #5992C1
+  }
+
+
+.P3 {
+  color: black;
+  font-size: 115%;
+  }
+
+
+.Boxtext {
+  margin-left: 7%;
+  margin-bottom: 5% ;
+  font-size: 120%;
+  }
+
+
+/*.......................................................two boxex end here----------------*/
+
+/*------------------------------------------------media query for tablet--------------------*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	*{
+		width: 100%;
+		margin:  0 auto;
+	}
+	.bannerhide{
+		display: none;
+	}
+
+

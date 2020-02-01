@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Insurance CRV3 Manuel</title>
+</head>
+
+<div class ="Container">
+<!-- Header Part starts here ----------------------------------------------------------- -->	
+	<header>	
+		<div class="TLogo">
+			<div class="InsuranceP">
+				<img src="img/logo.png" alt="CodeFactory">
+			</div>
+			<img class="bannerhide" src="img/banner.png" alt="Full Stack Web Developer">
+		</div>
+		<nav class = "nav">
+			<ul>
+				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="team.html" title="Team">Team</a></li>
+			</ul>
+		</nav>
+	</header>
+<!-- Header Part ends here ----------------------------------------------------------- -->
+<body>
+<!-- Main Part with Background picture and text starts here ----------------------------------------------------------- -->
+	<div id="traffic">
+		<div class="ctraffic">
+			<img id="light" src="img/Mainpic.jpg">
+			<div class="traffichide">
+				<h1>Car Insurance</h1>
+			</div>	
+		<div class="blockgrey">
+		<div class="contentbox">
+			<h1 class="Headlinebox">Greate coverge begins <br>
+				with a custom quote</h1>
+		
+		<div class="CR01">
+			
+		
+		<div class="contentrow0">
+				<label for="country">Country</label><br>
+				<span style="color: red !important; display: inline; float: none;">*</span>
+			<select id="country" name="country" class="form-control">
+				<option value="1">Austria</option>
+				<option value="2">Hungary</option>
+				<option value="3">Greece</option>
+			</select>
+	
+		</div>
+		<div class="contentrow1">
+			<label>Age:</label><br>
+			<input type="number" id="carAge">
+		</div>
+		</div>
+		<div class="CR23">
+		<div class="contentrow2">
+			<label>Horsepower:</label>
+			<input type="number" id="horsePower">
+		</div>
+		<div class="contentrow3">
+			<label>Name:</label>
+			<input type="text" id="ownerName"><br>
+		</div>
+		</div>
+		<br>
+			<button onclick="insurance()">Calculate you insurance here!</button>
+			<h1 id="result">Printed calculation goes here</h1>
+		</div>
+		</div>
+		</div>
+	<div id="blockgreytext">
+		 <div id="toprow">
+			 <p class="Headline2">Un-complicating car coverage</p><p>Understanding your coverage options shouldnt be so hard.<br> We'll guide you through available coverage types,<br>starting with who and what is covered.</p>
+		</div>
+	</div>
+	</div>
+ <!-- Main Part with Background picture and text ends here ----------------------------------------------------------- -->
+
+	<!-- two Boxes Part starts here ----------------------------------------------------------- -->
+	<div class="Boxarea">
+		<div class="Boxes">
+			<p class="H3">What comes standard <br></p>
+			<p>The coverage you need</p>
+			<br>
+				<p class="Boxtext"><span><img src="img/hakerl.png"></span> Bodily Injury Liability</p>
+				<p class="Boxtext"><span><img src="img/hakerl.png"></span> Property Damage</p>
+				<p class="Boxtext"><span><img src="img/hakerl.png"></span> Medical Payments</p>
+			<br>	
+			
+			<p class="P3"><b>Benefits</b> <br></p>
+			<p>12-month rate guarantee | 24/7 customer <br>
+			service | Lifetime Repair Guarantee</p>
+		</div>
+		<div class="Boxes">
+			<p class="H3">Add-on protection & coverage</p>
+			<p>For more peace of mind</p>
+			<br>
+				<p class="Boxtext"><span><img src="img/hakerl.png"></span> Better Car Replacement</p>
+				<p class="Boxtext"><span><img src="img/hakerl.png"></span> Towing & Labor</p>
+				<p class="Boxtext"><span><img src="img/hakerl.png"></span> Rental Car Coverage</p>
+			<br>
+			<p class="P3"><b>Earned Benefits</b><br></p>
+			<p>Accident Forgiveness <sup>1</sup> | New Car <br>
+			Replacement <sup>TM</sup></p>	
+		</div>	
+	</div>	
+	<!-- two Boxes Part ends here--------------------------------------------------------------------->
+</body>
+<!-- footer Part starts here--------------------------------------------------------------------->
+ <footer>
+	 <div id="footer">
+		<nav class="nav2">
+			<ul>
+				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="team.html" title="Team">Team</a></li>
+			</ul>
+		</nav>
+	<div class="logo5" align="right">
+		<img class="logo2" src="img/logob.png" alt="CodeFactory">
+	</div>
+	<div class="name">
+		Manuel - CodeFactory 2020
+	</div>
+	</div>
+
+</footer>
+<!-- footer Part starts here--------------------------------------------------------------------->
+</div>
+<!-- js Part starts here--------------------------------------------------------------------->
+</div>
+<script type="text/javascript">
+
+
+	function insurance(){
+	var selector = document.getElementById("country");
+	var countryId = parseInt( selector.options[selector.selectedIndex].value );
+	var name = document.getElementById("ownerName").value;
+	var age = parseInt(document.getElementById("carAge").value);
+	var hp = parseInt(document.getElementById("horsePower").value);
+			try {
+				if (age > 25) throw "We're sorry, we don't insure oldtimers.";
+			} catch (err) {
+				alert(err);
+			}
+			
+			try {
+				if (hp < 25) throw "We're sorry, this car has too few horse power to insure it.";
+			} catch (err) {
+				alert(err);
+			}
+			
+			var insurance = 0;
+			switch( countryId ) {
+				case 1: // Austria
+					insurance = hp * 100 / age + 50;
+					break;
+				case 2: // Hungary
+					insurance = hp * 150 / age + 20;
+					break;
+				case 3: // Greece
+					insurance = hp * 180 / age + 30;
+					break;
+			}
+			
+			document.getElementById("result").innerHTML= name + "'s yearly payments are " + insurance;
+		}
+
+
+</script>	 
+	 <!-- js Part ends here--------------------------------------------------------------------->
+</body>
+</html>
